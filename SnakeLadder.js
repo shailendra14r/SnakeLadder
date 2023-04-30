@@ -6,7 +6,7 @@ function ladderImg(box,id)
 {
     let img=document.createElement('img');
     img.classList.add('image');
-    img.setAttribute('src','Snake2/ladder.png');
+    img.setAttribute('src','SnakeLadder_resource/ladder.png');
     box.appendChild(img);
 }
 
@@ -16,9 +16,9 @@ function snakeImg(box,id,v=0)
     let img=document.createElement('img');
     img.classList.add('image');
     if(v==0)
-        img.setAttribute('src','Snake2/Snake1.png');
+        img.setAttribute('src','SnakeLadder_resource/Snake1.png');
     else
-        img.setAttribute('src','Snake2/Snake3.png');
+        img.setAttribute('src','SnakeLadder_resource/Snake3.png');
     box.appendChild(img);
 }
 
@@ -84,8 +84,8 @@ let img2=document.createElement('img');
 img1.setAttribute('class','player');
 img2.setAttribute('class','player');
 
-img1.setAttribute('src','Snake2/blue.png');
-img2.setAttribute('src','Snake2/purple.png');
+img1.setAttribute('src','SnakeLadder_resource/blue.png');
+img2.setAttribute('src','SnakeLadder_resource/purple.png');
 
 document.getElementById('b1').appendChild(img1);
 document.getElementById('b1').appendChild(img2);
